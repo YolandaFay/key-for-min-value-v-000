@@ -11,6 +11,11 @@ def key_for_min_value(name_hash)
     value_array << value 
   end
   
-  
+  while i < value.length 
+    if value[i] < value[i+1]
+      smallest_value_index = i 
+    else
+      i += 1 
+    end
     
 end
