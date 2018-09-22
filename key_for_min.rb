@@ -17,5 +17,8 @@ def key_for_min_value(name_hash)
     else
       i += 1 
     end
+  end
+  
+  return key_array[smallest_value_index]
     
 end
