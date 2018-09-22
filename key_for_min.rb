@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   
-  name_hash.empty? ? (return nil) 
+  return nil if name_hash.empty? 
   
   key_array = Array.new 
   value_array = Array.new
